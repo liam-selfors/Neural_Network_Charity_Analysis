@@ -91,12 +91,12 @@ nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 #### Optimized Model 2 (Two hidden layers, 100 epochs)
 
-The same model structure from optimization model 1 was used with twice as many neurons per layer.
+The same model structure from optimization model 1 was used a greater number of neurons per layer.
 
 ```
 number_input_features = len(X_train.iloc[0])
 hidden_nodes_layer1 =  10
-hidden_nodes_layer2 = 8
+hidden_nodes_layer2 = 6
 
 nn1 = tf.keras.models.Sequential()
 
@@ -114,7 +114,7 @@ nn1.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 ##### Second Hidden Layer
 
-* **Neurons:** 8
+* **Neurons:** 6
 * **Activation Function:** ReLu
 
 ##### Output Layer
@@ -129,7 +129,7 @@ The same model structure from optimization model 2 was used with the first layer
 ```
 number_input_features = len(X_train.iloc[0])
 hidden_nodes_layer1 =  10
-hidden_nodes_layer2 = 8
+hidden_nodes_layer2 = 6
 
 nn = tf.keras.models.Sequential()
 
@@ -147,7 +147,7 @@ nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 ##### Second Hidden Layer
 
-* **Neurons:** 8
+* **Neurons:** 6
 * **Activation Function:** ReLu
 
 ##### Output Layer
@@ -162,9 +162,9 @@ The same model structure from optimization model 3 was used with two additional 
 ```
 number_input_features = len(X_train.iloc[0])
 hidden_nodes_layer1 =  10
-hidden_nodes_layer2 = 8
-hidden_nodes_layer3 = 8
-hidden_nodes_layer4 = 8
+hidden_nodes_layer2 = 6
+hidden_nodes_layer3 = 6
+hidden_nodes_layer4 = 6
 
 nn = tf.keras.models.Sequential()
 
@@ -184,17 +184,17 @@ nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 ##### Second Hidden Layer
 
-* **Neurons:** 8
+* **Neurons:** 6
 * **Activation Function:** ReLu
 
 ##### Third Hidden Layer
 
-* **Neurons:** 8
+* **Neurons:** 6
 * **Activation Function:** ReLu
 
 ##### Fourth Hidden Layer
 
-* **Neurons:** 8
+* **Neurons:** 6
 * **Activation Function:** ReLu
 
 ##### Output Layer
@@ -236,4 +236,4 @@ The following modifications were made to increase the model's performance:
 
 ## Summary
 
-Overall, the deep learning models were not able to meet the performance target. Each optimization improved the accuracy score over the initial model. Most optimizations improved the accuracy score over the previous optimization with the exception of optimization model 3 which set the accuracy score back slightly. For future efforts to create a model to solve this classification problem, optimization should focus on adding neurons based on the improvements these optimizations made over the previous optimization.
+Overall, the deep learning models were not able to meet the performance target. Each optimization improved the accuracy score over the initial model, and most optimizations improved the accuracy score slightly over the previous optimization with the exception of optimization model 3 which set the accuracy score back slightly. For future efforts to create a model to solve this classification problem, optimization should focus on adding neurons based on the improvements these optimizations made over the previous optimization.
