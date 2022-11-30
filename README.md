@@ -72,7 +72,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 1 Structure](./Images/optimized-model-1.PNG "Optimized Model 1 Structure")
+![Optimized Model 1 Structure](./Images/optimization-model-1.PNG "Optimized Model 1 Structure")
 
 ##### First Hidden Layer
 
@@ -105,7 +105,7 @@ nn1.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn1.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 2 Structure](./Images/optimized-model-2.PNG "Optimized Model 2 Structure")
+![Optimized Model 2 Structure](./Images/optimization-model-2.PNG "Optimized Model 2 Structure")
 
 ##### First Hidden Layer
 
@@ -138,7 +138,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 3 Structure](./Images/optimized-model-3.PNG "Optimized Model 3 Structure")
+![Optimized Model 3 Structure](./Images/optimization-model-3.PNG "Optimized Model 3 Structure")
 
 ##### First Hidden Layer
 
@@ -175,7 +175,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer4, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 4 Structure](./Images/optimized-model-4.PNG "Optimized Model 4 Structure")
+![Optimized Model 4 Structure](./Images/optimization-model-4.PNG "Optimized Model 4 Structure")
 
 ##### First Hidden Layer
 
