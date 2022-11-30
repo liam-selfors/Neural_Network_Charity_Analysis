@@ -229,10 +229,10 @@ The fourth optimization pass (adding hidden layers) did not achieve an acceptabl
 ##### Model Modifications
 
 The following modifications were made to increase the model's performance:
-* The noisy _ASK_AMT_ feature was removed by categorizing the column and binning rarities.
-* Additional neurons were added to all hidden layers
-* The activation function of the first two hidden layers was changed to _TanH_
-* Three additional hidden layers were added
+1. The noisy _ASK_AMT_ feature was removed by categorizing the column and binning rarities.
+2. Additional neurons were added to all hidden layers
+3. The activation function of the first two hidden layers was changed to _TanH_
+4. Three additional hidden layers were added
 
 ## Summary
 
