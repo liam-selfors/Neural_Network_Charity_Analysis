@@ -39,7 +39,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Initial Model Structure](initial-model.PNG "Initial Model Structure")
+![Initial Model Structure](./Images/initial-model.PNG "Initial Model Structure")
 
 ##### First Hidden Layer
 
@@ -72,7 +72,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 1 Structure](optimized-model-1.PNG "Optimized Model 1 Structure")
+![Optimized Model 1 Structure](./Images/optimized-model-1.PNG "Optimized Model 1 Structure")
 
 ##### First Hidden Layer
 
@@ -105,7 +105,7 @@ nn1.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn1.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 2 Structure](optimized-model-2.PNG "Optimized Model 2 Structure")
+![Optimized Model 2 Structure](./Images/optimized-model-2.PNG "Optimized Model 2 Structure")
 
 ##### First Hidden Layer
 
@@ -138,7 +138,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 3 Structure](optimized-model-3.PNG "Optimized Model 3 Structure")
+![Optimized Model 3 Structure](./Images/optimized-model-3.PNG "Optimized Model 3 Structure")
 
 ##### First Hidden Layer
 
@@ -175,7 +175,7 @@ nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer4, activation="relu"))
 nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 ```
 
-![Optimized Model 4 Structure](optimized-model-4.PNG "Optimized Model 4 Structure")
+![Optimized Model 4 Structure](./Images/optimized-model-4.PNG "Optimized Model 4 Structure")
 
 ##### First Hidden Layer
 
@@ -208,23 +208,23 @@ nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 The target for performance was 75% accuracy. The initial model did not achieve an acceptable accuracy score (72.94%)
 
-![Initial Model Results](initial-model-results.PNG "Initial Model Results")
+![Initial Model Results](./Images/initial-model-results.PNG "Initial Model Results")
 
 The first optimization pass (categorizing/binning noisy column) did not achieve an acceptable accuracy score, but performed slightly above the initial model with an accuracy score of 72.98%.
 
-![Optimization Model 1 Results](optimization-model-1-results.PNG "Optimization Model 1 Results")
+![Optimization Model 1 Results](./Images/optimization-model-1-results.PNG "Optimization Model 1 Results")
 
 The second optimization pass (adding neurons) did not achieve an acceptable accuracy score, but performed above the initial model with an accuracy score of 73.47%.
 
-![Optimization Model 2 Results](optimization-model-2-results.PNG "Optimization Model 2 Results")
+![Optimization Model 2 Results](./Images/optimization-model-2-results.PNG "Optimization Model 2 Results")
 
 The third optimization pass (changing activation function) did not achieve an acceptable accuracy score, but performed slightly above the initial model with an accuracy score of 73.36%.
 
-![Optimization Model 3 Results](optimization-model-3-results.PNG "Optimization Model 3 Results")
+![Optimization Model 3 Results](./Images/optimization-model-3-results.PNG "Optimization Model 3 Results")
 
 The fourth optimization pass (adding hidden layers) did not achieve an acceptable accuracy score, but performed slightly above the initial model with an accuracy score of 73.37%.
 
-![Optimization Model 4 Results](optimization-model-4-results.PNG "Optimization Model 4 Results")
+![Optimization Model 4 Results](./Images/optimization-model-4-results.PNG "Optimization Model 4 Results")
 
 ##### Model Modifications
 
